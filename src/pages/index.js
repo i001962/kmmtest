@@ -18,6 +18,8 @@ class RootIndex extends React.Component {
           <Helmet title={siteTitle} />
           <Hero data={author.node} />
           <div className="wrapper">
+      <script src="https://js.fast.co/button.js?key=4vejz1JBMl5RLZ8vDnpdgbqy9Xk0Y6OD"></script>
+
             <h2 className="section-headline">Recent articles</h2>
       
       <fast-button>test</fast-button>
