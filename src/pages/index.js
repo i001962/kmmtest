@@ -16,7 +16,7 @@ class RootIndex extends React.Component {
       <Layout location={this.props.location} >
         <div style={{ background: '#fff' }}>
           <Helmet>
-            <script=src="https://js.fast.co/button.js?key=4vejz1JBMl5RLZ8vDnpdgbqy9Xk0Y6OD" type="text/javascript" />
+            <script src="https://js.fast.co/button.js?key=4vejz1JBMl5RLZ8vDnpdgbqy9Xk0Y6OD" type="text/javascript" />
           </Helmet>
           <Hero data={author.node} />
           <div className="wrapper">
