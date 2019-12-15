@@ -21,8 +21,7 @@ class RootIndex extends React.Component {
           <Hero data={author.node} />
           <div className="wrapper">
             <h2 className="section-headline">Recent articles</h2>
-      <fast-button>test</fast-button>
-            <h3>Where is this showing up</h3>
+      <fast-button></fast-button>
             <ul className="article-list">
               {posts.map(({ node }) => {
                 return (
