@@ -15,10 +15,11 @@ class RootIndex extends React.Component {
     return (
       <Layout location={this.props.location} >
         <div style={{ background: '#fff' }}>
-          <Helmet title={siteTitle} />
+          <Helmet title={siteTitle}>
+      <script=src="https://js.fast.co/button.js?key=4vejz1JBMl5RLZ8vDnpdgbqy9Xk0Y6OD" type="text/javascript" />
+ </Helmet>
           <Hero data={author.node} />
           <div className="wrapper">
-      <script src="https://js.fast.co/button.js?key=4vejz1JBMl5RLZ8vDnpdgbqy9Xk0Y6OD"></script>
 
             <h2 className="section-headline">Recent articles</h2>
       
