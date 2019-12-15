@@ -20,8 +20,7 @@ class RootIndex extends React.Component {
           <div className="wrapper">
             <h2 className="section-headline">Recent articles</h2>
       
-      <fast-button></fast-button>
-<script src="https://js.fast.co/button.js?key=4vejz1JBMl5RLZ8vDnpdgbqy9Xk0Y6OD"></script>
+      <fast-button>test</fast-button>
             <h3>Where is this showing up</h3>
             <ul className="article-list">
               {posts.map(({ node }) => {
